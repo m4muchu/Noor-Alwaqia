@@ -5,7 +5,7 @@ import Link from "next/link";
 import clsx from "clsx";
 import { NAV_LINK_TEXT } from "@/src/app/consts/nav.enum";
 import { COMPANY_NAME } from "@/src/app/consts/company-details";
-import Logo from "@/public/logo.jpeg";
+// import Logo from "@/public/logo.jpeg";
 interface IHeader {
   // heroSectionRef: React.ForwardedRef<unknown>,
   onHandleSelectedNav: (nav: string) => void;
@@ -34,13 +34,13 @@ const Header = forwardRef(function Hear(props: IHeader, ref) {
         <div className="container px-6 py-4 mx-auto md:flex md:justify-between md:items-center">
           <div className="flex items-center justify-between">
             <a href="#">
-              <Image
+              {/* <Image
                 className="w-auto h-6 sm:h-7"
                 src={Logo}
                 alt=""
                 width={8}
                 height={8}
-              />
+              /> */}
               {COMPANY_NAME}
             </a>
             {/* 
