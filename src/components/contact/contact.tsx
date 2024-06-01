@@ -141,7 +141,13 @@ export default function Contact() {
 
               <a
                 className="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500"
-                href="#"
+                onClick={() =>
+                  window.open(
+                    "https://www.instagram.com/nooralwaqiah_trading_dxb?igsh=MWhpeWRobTNydDBhMA%3D%3D&utm_source=qr",
+                    "_blank"
+                  )
+                }
+                style={{ cursor: "pointer" }}
               >
                 <svg
                   className="w-8 h-8"
