@@ -5,12 +5,14 @@ import GreenApple from "@/public/products/green-apple.jpeg";
 import RedApple from "@/public/products/red-apple.jpeg";
 import TenderCoconut from "@/public/products/tender-coconut.jpeg";
 import Orange from "@/public/products/Orange.jpeg";
-import FrozenVeg from "@/public/products/frozen-veg.jpg";
+import FrozenVeg from "@/public/products/vegetables.jpeg";
 import FrenchFries from "@/public/products/french-fries.jpg";
 import Eggs from "@/public/products/eggs.jpg";
-import Sugar from "@/public/products/sugar.jpg";
+import Sugar from "@/public/products/sugar.jpeg";
 import Rice from "@/public/products/rice.jpg";
 import Lentils from "@/public/products/lentils.jpg";
+import FrozenChicken from "@/public/products/frozen-chicken.jpeg";
+import FrozenPrawns from "@/public/products/prawns.jpeg";
 
 import { StaticImageData } from "next/image";
 
@@ -71,6 +73,18 @@ export const frozenItems: IProductItems[] = [
     description:
       "Our frozen vegetables lock in freshness and nutrients, offering convenient, long-lasting goodness for your culinary creations.",
     imageURL: FrozenVeg,
+  },
+  {
+    title: "Chicken",
+    description:
+      "Our frozen chicken is sourced from the finest farms, ensuring that you get the highest quality meat every time. Each piece is carefully selected and frozen at peak freshness to lock in the natural flavors and nutrients.",
+    imageURL: FrozenChicken,
+  },
+  {
+    title: "Prawns",
+    description:
+      "Sourced from the best fisheries, our prawns are carefully selected and processed under strict quality standards.",
+    imageURL: FrozenPrawns,
   },
   {
     title: "French fries",

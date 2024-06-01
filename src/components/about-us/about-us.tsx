@@ -11,8 +11,9 @@ function AboutUs() {
       <div className="flex gap-16 justify-center flex-wrap lg:flex-nowrap">
         {aboutUsData.map((data: IAboutUs) => (
           <div
-            className="flex flex-col justify-center items-center"
+            className="flex flex-col items-center"
             key={data.title}
+            style={{ flex: "1 1 300px" }}
           >
             <Image
               src={data.icon}

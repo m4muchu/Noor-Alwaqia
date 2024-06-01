@@ -7,7 +7,10 @@ export default function Products() {
   return (
     <div className="container px-6 py-4 md:py-8 mx-auto">
       {/* <div className="flex overflow-hidden bg-white rounded w-min-max shadow-md justify-center"> */}
-      <div className="rounded-lg shadow-xl p-2 px-4 mb-8 rounded-full w-fit">
+      <div
+        className="rounded-lg shadow-xl p-2 px-4 mb-8 rounded-full w-fit"
+        style={{ borderRadius: "23%", backgroundColor: "#f8f8f8" }}
+      >
         <h2 className="text-4xl font-medium text-gray-800">
           <span className="text-green-600">Fresh </span>
           <span className="text-4xl">fruits</span>
@@ -25,7 +28,10 @@ export default function Products() {
         ))}
       </div>
 
-      <div className="rounded-lg shadow-xl p-2 px-4 my-8 rounded-full w-fit">
+      <div
+        className="rounded-lg shadow-xl p-2 px-4 my-8 rounded-full w-fit"
+        style={{ borderRadius: "23%", backgroundColor: "#f8f8f8" }}
+      >
         <h2 className="text-4xl font-medium text-gray-800">
           <span className="text-blue-500">Frozen </span>
           <span className="text-4xl">items</span>
@@ -43,7 +49,10 @@ export default function Products() {
         ))}
       </div>
 
-      <div className="rounded-lg shadow-xl p-2 px-4 my-8 rounded-full w-fit">
+      <div
+        className="rounded-lg shadow-xl p-2 px-4 my-8 rounded-full w-fit"
+        style={{ borderRadius: "23%", backgroundColor: "#f8f8f8" }}
+      >
         <h2 className="text-4xl font-medium text-gray-800">
           <span className="text-blue-500">Other </span>
           <span className="text-4xl">items</span>

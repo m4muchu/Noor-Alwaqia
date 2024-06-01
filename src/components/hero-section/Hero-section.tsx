@@ -14,8 +14,8 @@ export default function HeroSection() {
             </h1>
 
             <p className="mt-4 text-gray-600 dark:text-gray-400">
-              Welcome to [Company Name], your premier partner in global trade
-              solutions. With a steadfast commitment to excellence, we
+              Welcome to Noor AlWaqiah Trading, your premier partner in global
+              trade solutions. With a steadfast commitment to excellence, we
               specialize in facilitating the seamless exchange of goods across
               international borders. Leveraging our extensive network, industry
               expertise, and innovative logistics, we empower businesses to
